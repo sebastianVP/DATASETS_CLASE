@@ -17,11 +17,11 @@ $
 # 1. Función Sigmoide
 
 En la regresión logística, usamos la función sigmoide para convertir una combinación lineal de las características en una probabilidad. La función sigmoide se define como:
-
+```math
 \[
 $\sigma(z) = \frac{1}{1 + e^{-z}$
 \]
-
+```
 donde:
 - \( z = X \cdot \beta \): Es el producto de las características \( X \) y los coeficientes o pesos \( \beta \).
 - El resultado de \( \sigma(z) \) es una probabilidad entre 0 y 1.
