@@ -22,7 +22,7 @@ En la regresión logística, usamos la función sigmoide para convertir una comb
 
 
 \[
- $`\sigma(z) = \frac{1}{1 + e^{-z}`$
+ $`\sigma(z)`$ = $`\frac{1}{1 + e^{-z}`$
 \]
 
 donde:
