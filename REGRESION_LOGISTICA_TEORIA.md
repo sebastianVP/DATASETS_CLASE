@@ -19,7 +19,7 @@
 En la regresión logística, usamos la función sigmoide para convertir una combinación lineal de las características en una probabilidad. La función sigmoide se define como:
 
 \[
-\sigma(z) = \frac{1}{1 + e^{-z}}
+$sigma(z) = \frac{1}{1 + e^{-z}$
 \]
 
 donde:
