@@ -2,7 +2,7 @@
 
 <br>
 <h1><font color="#7F000E" size=5> Maestria de Ciencias de la Computacion UNI</font></h1>
-
+$
 <h1><font color="#7F000R" size=6> Aprendizaje de Máquina para Visión Computacional </font></h1>
 <h1><font color="#7F000E" size=4>Proyecto V:  REGRESION LOGISTICA</font></h1>
 <br>
@@ -19,7 +19,7 @@
 En la regresión logística, usamos la función sigmoide para convertir una combinación lineal de las características en una probabilidad. La función sigmoide se define como:
 
 \[
-$sigma(z) = \frac{1}{1 + e^{-z}$
+sigma(z) = $\frac{1}{1 + e^{-z}$
 \]
 
 donde:
