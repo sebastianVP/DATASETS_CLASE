@@ -5,7 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 # echo "HOLA $SCRIPT_DIR"
 
 COMMIT_MSG="Subida automatica utilizando bash"
-LOG_FILE= "$SCRIPT_DIR/subida.log"
+LOG_FILE="$SCRIPT_DIR/subida.log"
 
 # Verificar si el archivo de log existe, si no, crearlo
 if [ ! -f "$LOG_FILE" ]; then
