@@ -10,6 +10,10 @@ LOG_FILE= "$SCRIPT_DIR/subida.log"
 # Moverse al repositorio
 cd "$SCRIPT_DIR" || { echo "$(date '+%Y-%m-%d %H:%M:%S') - Error: No se pudo acceder al repositorio" >> "$LOG_FILE"; exit 1; }
 
+# Iniciar log con fecha y hora
+echo "🕒 Inicio de ejecución: $(date '+%Y-%m-%d %H:%M:%S')" | tee -a "$LOG_FILE"
+
+
 # AGREGAR EL ARCHIVO AL REPOSITORIO
 if git add . &&  git commit -m "$COMMIT_MSG" && git push; then
   echo "$(date '+%Y-%m-%d %H:%M:%S') - Archivo subido con éxito a GitHub" >> "$LOG_FILE"
