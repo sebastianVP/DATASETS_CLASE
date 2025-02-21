@@ -7,8 +7,15 @@ echo "HOLA $SCRIPT_DIR"
 COMMIT_MSG="Subida automatica utilizando bash"
 LOG_FILE= "$SCRIPT_DIR/subida.log"
 
+# Verificar si el archivo de log existe, si no, crearlo
+if [ ! -f "$LOG_FILE" ]; then
+    touch "$LOG_FILE"  # 🔹 Crea el archivo vacío
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - Log creado" >> "$LOG_FILE"
+fi
+
 # Moverse al repositorio
 cd "$SCRIPT_DIR" || { echo "$(date '+%Y-%m-%d %H:%M:%S') - Error: No se pudo acceder al repositorio" >> "$LOG_FILE"; exit 1; }
+
 
 # Iniciar log con fecha y hora
 echo "🕒 Inicio de ejecución: $(date '+%Y-%m-%d %H:%M:%S')" | tee -a "$LOG_FILE"
