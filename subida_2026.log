@@ -1,0 +1,61 @@
+2026-09-29 09:33:46 - ============================================================
+2026-09-29 09:33:46 - INICIO DE ENVIO DE REPORTES 2026
+2026-09-29 09:33:46 - ============================================================
+2026-09-29 09:33:46 - Origen: /home/soporte/Documents
+2026-09-29 09:33:46 - Repositorio: /home/soporte/Documents/DATASETS_CLASE
+2026-09-29 09:33:46 - Verificando archivos de origen...
+2026-09-29 09:33:46 - OK: Ambos archivos existen.
+2026-09-29 09:33:46 - Copiando archivos al repositorio...
+2026-09-29 09:33:46 - OK: Archivos copiados correctamente.
+2026-09-29 09:33:46 - OK: Archivos verificados en el repositorio.
+2026-09-29 09:33:46 - Estado actual del repositorio:
+ M reporte_tamanos_directorios.csv
+ M subida.log
+?? REPORTE_AUTOMATIZADO_2026.csv
+?? REPORTE_DIGDT_2026.csv
+?? auto_send_2026.sh
+?? subida_2026.log
+2026-09-29 09:33:46 - Agregando archivos al repositorio...
+2026-09-29 09:33:46 - OK: Archivos agregados a Git.
+2026-09-29 09:33:46 - Creando commit...
+2026-09-29 09:33:46 - OK: Commit creado correctamente.
+2026-09-29 09:33:46 - Enviando archivos a GitHub...
+2026-09-29 09:33:49 - ERROR: No se pudieron enviar los archivos a GitHub.
+2026-09-29 09:34:37 - ============================================================
+2026-09-29 09:34:37 - INICIO DE ENVIO DE REPORTES 2026
+2026-09-29 09:34:37 - ============================================================
+2026-09-29 09:34:37 - Origen: /home/soporte/Documents
+2026-09-29 09:34:37 - Repositorio: /home/soporte/Documents/DATASETS_CLASE
+2026-09-29 09:34:37 - Verificando archivos de origen...
+2026-09-29 09:34:37 - OK: Ambos archivos existen.
+2026-09-29 09:34:37 - Copiando archivos al repositorio...
+2026-09-29 09:34:37 - OK: Archivos copiados correctamente.
+2026-09-29 09:34:37 - OK: Archivos verificados en el repositorio.
+2026-09-29 09:34:37 - Estado actual del repositorio:
+ M reporte_tamanos_directorios.csv
+ M subida.log
+?? auto_send_2026.sh
+?? subida_2026.log
+2026-09-29 09:34:37 - Agregando archivos al repositorio...
+2026-09-29 09:34:37 - OK: Archivos agregados a Git.
+2026-09-29 09:34:37 - No existen cambios nuevos para subir.
+2026-09-29 09:34:37 - Los archivos ya están actualizados en GitHub.
+2026-09-29 09:39:13 - ============================================================
+2026-09-29 09:39:13 - INICIO DE ENVIO DE REPORTES 2026
+2026-09-29 09:39:13 - ============================================================
+2026-09-29 09:39:13 - Origen: /home/soporte/Documents
+2026-09-29 09:39:13 - Repositorio: /home/soporte/Documents/DATASETS_CLASE
+2026-09-29 09:39:13 - Verificando archivos de origen...
+2026-09-29 09:39:13 - OK: Ambos archivos existen.
+2026-09-29 09:39:13 - Copiando archivos al repositorio...
+2026-09-29 09:39:13 - OK: Archivos copiados correctamente.
+2026-09-29 09:39:13 - OK: Archivos verificados en el repositorio.
+2026-09-29 09:39:13 - Estado actual del repositorio:
+ M reporte_tamanos_directorios.csv
+ M subida.log
+?? auto_send_2026.sh
+?? subida_2026.log
+2026-09-29 09:39:13 - Agregando archivos al repositorio...
+2026-09-29 09:39:13 - OK: Archivos agregados a Git.
+2026-09-29 09:39:13 - No existen cambios nuevos para subir.
+2026-09-29 09:39:13 - Los archivos ya están actualizados en GitHub.
