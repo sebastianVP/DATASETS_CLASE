@@ -86,6 +86,57 @@ Generación de reportes
                     Git / GitHub
 ```
 
+
+
+## Programación automática con Crontab
+
+Los tres procesos se ejecutan automáticamente mediante crontab, utilizando el entorno Python:
+
+/home/soporte/anaconda3/envs/schain3/bin/python3.8
+
+La ejecución está programada diariamente de acuerdo con el siguiente flujo:
+
+12:00  →  auto_scanner_2026.py
+12:30  →  auto_reporte_2026.py
+13:00  →  auto_send_2026.sh
+
+Para configurar las tareas programadas se utiliza:
+
+crontab -e
+
+Y se agregan las siguientes entradas:
+
+### Escaneo automático de reportes 2026 - 12:00
+0 12 * * * cd /home/soporte/Documents && /home/soporte/anaconda3/envs/schain3/bin/python3.8 auto_scanner_2026.py >> /home/soporte/Documents/cron_2026.log 2>&1
+
+### Generación automática de reportes 2026 - 12:30
+30 12 * * * cd /home/soporte/Documents && /home/soporte/anaconda3/envs/schain3/bin/python3.8 auto_reporte_2026.py >> /home/soporte/Documents/cron_2026.log 2>&1
+
+### Envío automático a GitHub - 13:00
+0 13 * * * cd /home/soporte/Documents/DATASETS_CLASE && /home/soporte/Documents/DATASETS_CLASE/auto_send_2026.sh >> /home/soporte/Documents/DATASETS_CLASE/cron_2026.log 2>&1
+Registro de ejecución
+
+Las dos primeras tareas registran su salida en:
+
+/home/soporte/Documents/cron_2026.log
+
+Mientras que el proceso de envío a GitHub registra su salida en:
+
+/home/soporte/Documents/DATASETS_CLASE/cron_2026.log
+
+Para consultar las tareas configuradas:
+
+crontab -l
+
+Para revisar las últimas ejecuciones:
+
+tail -50 /home/soporte/Documents/cron_2026.log
+
+Y para revisar el proceso de envío a GitHub:
+
+tail -50 /home/soporte/Documents/DATASETS_CLASE/cron_2026.log
+
+
 ## Ubicación
 
 Repositorio local:
