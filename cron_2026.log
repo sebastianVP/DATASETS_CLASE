@@ -201,3 +201,32 @@ To github.com:sebastianVP/DATASETS_CLASE.git
 2026-10-05 13:00:08 - ============================================================
 2026-10-05 13:00:08 - ENVIO COMPLETADO CORRECTAMENTE
 2026-10-05 13:00:08 - ============================================================
+2026-10-06 13:00:01 - ============================================================
+2026-10-06 13:00:01 - INICIO DE ENVIO DE REPORTES 2026
+2026-10-06 13:00:01 - ============================================================
+2026-10-06 13:00:01 - Origen: /home/soporte/Documents
+2026-10-06 13:00:01 - Repositorio: /home/soporte/Documents/DATASETS_CLASE
+2026-10-06 13:00:01 - Verificando archivos de origen...
+2026-10-06 13:00:01 - OK: Ambos archivos existen.
+2026-10-06 13:00:01 - Copiando archivos al repositorio...
+2026-10-06 13:00:01 - OK: Archivos copiados correctamente.
+2026-10-06 13:00:01 - OK: Archivos verificados en el repositorio.
+2026-10-06 13:00:01 - Estado actual del repositorio:
+ M REPORTE_AUTOMATIZADO_2026.csv
+ M REPORTE_DIGDT_2026.csv
+ M cron_2026.log
+ M subida.log
+ M subida_2026.log
+2026-10-06 13:00:01 - Agregando archivos al repositorio...
+2026-10-06 13:00:01 - OK: Archivos agregados a Git.
+2026-10-06 13:00:01 - Creando commit...
+[main ff0a9e2] Actualizacion de reportes 2026
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+2026-10-06 13:00:01 - OK: Commit creado correctamente.
+2026-10-06 13:00:01 - Enviando archivos a GitHub...
+To github.com:sebastianVP/DATASETS_CLASE.git
+   553f3a8..ff0a9e2  main -> main
+2026-10-06 13:00:07 - OK: Archivos enviados correctamente a GitHub.
+2026-10-06 13:00:07 - ============================================================
+2026-10-06 13:00:07 - ENVIO COMPLETADO CORRECTAMENTE
+2026-10-06 13:00:07 - ============================================================
