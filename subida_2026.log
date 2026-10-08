@@ -259,3 +259,28 @@
 2026-10-06 13:00:07 - ============================================================
 2026-10-06 13:00:07 - ENVIO COMPLETADO CORRECTAMENTE
 2026-10-06 13:00:07 - ============================================================
+2026-10-07 13:00:02 - ============================================================
+2026-10-07 13:00:02 - INICIO DE ENVIO DE REPORTES 2026
+2026-10-07 13:00:02 - ============================================================
+2026-10-07 13:00:02 - Origen: /home/soporte/Documents
+2026-10-07 13:00:02 - Repositorio: /home/soporte/Documents/DATASETS_CLASE
+2026-10-07 13:00:02 - Verificando archivos de origen...
+2026-10-07 13:00:02 - OK: Ambos archivos existen.
+2026-10-07 13:00:02 - Copiando archivos al repositorio...
+2026-10-07 13:00:02 - OK: Archivos copiados correctamente.
+2026-10-07 13:00:02 - OK: Archivos verificados en el repositorio.
+2026-10-07 13:00:02 - Estado actual del repositorio:
+ M REPORTE_AUTOMATIZADO_2026.csv
+ M REPORTE_DIGDT_2026.csv
+ M cron_2026.log
+ M subida.log
+ M subida_2026.log
+2026-10-07 13:00:02 - Agregando archivos al repositorio...
+2026-10-07 13:00:02 - OK: Archivos agregados a Git.
+2026-10-07 13:00:02 - Creando commit...
+2026-10-07 13:00:02 - OK: Commit creado correctamente.
+2026-10-07 13:00:02 - Enviando archivos a GitHub...
+2026-10-07 13:00:04 - OK: Archivos enviados correctamente a GitHub.
+2026-10-07 13:00:04 - ============================================================
+2026-10-07 13:00:04 - ENVIO COMPLETADO CORRECTAMENTE
+2026-10-07 13:00:04 - ============================================================
