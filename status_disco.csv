@@ -1,2 +1,2 @@
 Ruta,Tamaño (GB),Usado (GB),Disponible (GB),Porcentaje Usado,Punto de Montaje
-//192.168.10.20/data,932,930,1.6,100%,/mnt/data_amisr
+//192.168.10.20/data,932,612,321,66%,/mnt/data_amisr
